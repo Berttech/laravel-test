@@ -113,7 +113,7 @@ return array(
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
-		//'Berttech\TestPackage\TestPackageServiceProvider',
+		'Berttech\TestPackage\TestPackageServiceProvider',
 	),
 
 	/*

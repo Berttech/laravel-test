@@ -13,6 +13,6 @@
 
 Route::get('/', function() use ($app)
 {
-//	echo $app['berttech.testPackage']->testFunction();
+	echo $app['berttech.testPackage']->testFunction();
 	return View::make('hello');
 });

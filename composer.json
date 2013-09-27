@@ -11,7 +11,7 @@
 	],
 	"require": {
 		"laravel/framework": "4.0.*",
-		"berttech/test-package": "dev-master"
+		"berttech/test-package": "0.0.6"
 	},
 	"autoload": {
 		"classmap": [

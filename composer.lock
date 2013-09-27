@@ -3,8 +3,44 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "14256f4b7b12bf0b28f35c6a99f61268",
+    "hash": "027edef8ab0e073232faf77799b954cc",
     "packages": [
+        {
+            "name": "berttech/test-package",
+            "version": "0.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Berttech/TestPackage.git",
+                "reference": "180bed3dab0a27af150c779ec0f2ca166e09f6d5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Berttech/TestPackage/zipball/180bed3dab0a27af150c779ec0f2ca166e09f6d5",
+                "reference": "180bed3dab0a27af150c779ec0f2ca166e09f6d5",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "4.0.x",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Berttech\\TestPackage": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "albert",
+                    "email": "perry.albert@gmail.com"
+                }
+            ],
+            "support": {
+                "source": "https://github.com/Berttech/TestPackage/tree/v0.0.6",
+                "issues": "https://github.com/Berttech/TestPackage/issues"
+            },
+            "time": "2013-09-27 14:59:35"
+        },
         {
             "name": "classpreloader/classpreloader",
             "version": "1.0.1",
@@ -731,12 +767,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "ca18e81f79484c552b6bac0e40e4ee3fd0161000"
+                "reference": "df90f919b73e2e848d767a372caf9ca036877bf6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/ca18e81f79484c552b6bac0e40e4ee3fd0161000",
-                "reference": "ca18e81f79484c552b6bac0e40e4ee3fd0161000",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/df90f919b73e2e848d767a372caf9ca036877bf6",
+                "reference": "df90f919b73e2e848d767a372caf9ca036877bf6",
                 "shasum": ""
             },
             "require": {
@@ -786,7 +822,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2013-09-24 08:48:58"
+            "time": "2013-09-27 14:18:10"
         },
         {
             "name": "nesbot/carbon",
@@ -1527,12 +1563,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/HttpKernel.git",
-                "reference": "63132a7cb6ec040b23d76ad5a0e11c73796dba84"
+                "reference": "3e0efa10c337eeca57a51d351ccdcfdd0ad7ab6a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/HttpKernel/zipball/63132a7cb6ec040b23d76ad5a0e11c73796dba84",
-                "reference": "63132a7cb6ec040b23d76ad5a0e11c73796dba84",
+                "url": "https://api.github.com/repos/symfony/HttpKernel/zipball/3e0efa10c337eeca57a51d351ccdcfdd0ad7ab6a",
+                "reference": "3e0efa10c337eeca57a51d351ccdcfdd0ad7ab6a",
                 "shasum": ""
             },
             "require": {
@@ -1589,7 +1625,7 @@
             ],
             "description": "Symfony HttpKernel Component",
             "homepage": "http://symfony.com",
-            "time": "2013-09-24 10:40:06"
+            "time": "2013-09-27 10:40:14"
         },
         {
             "name": "symfony/process",
